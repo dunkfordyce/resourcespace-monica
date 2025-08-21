@@ -39,6 +39,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
       python3 \
       python3-pip \
       vim \
+      darktable \
     # (Optional) APCu: try versioned first, fall back to unversioned if needed
     && (apt-get install -y php8.3-apcu || apt-get install -y php-apcu || true) \
     # Enable PHP 8.3 in Apache; disable older PHP if present
