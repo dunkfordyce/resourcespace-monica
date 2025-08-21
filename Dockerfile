@@ -31,6 +31,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
       php8.3-mysql \
       php8.3-mbstring \
       php8.3-zip \
+      php8.3-xml \
       libapache2-mod-php8.3 \
       ffmpeg \
       libopencv-dev \
